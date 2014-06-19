@@ -244,9 +244,9 @@ Assembler Directives:
 .endif                      Close an .ifdef or .if
 .endm                       End of macro definition
 .export                     Export symbol so it shows up in ELF file
-.if <exression>             Evaluate an expression and assemble code if true
-.ifdef <exression>          If defined, can be used with .define
-.ifndef <exression>         If not defined, can be used with .define
+.if <expression>            Evaluate an expression and assemble code if true
+.ifdef <expression>         If defined, can be used with .define
+.ifndef <expression>        If not defined, can be used with .define
 .include "includefile.inc"  Include a file of asm source code
 .macro <name> (opt. params) Define a macro (should end with .endm
 .org <address>              Address where next assembled bytes are written to
